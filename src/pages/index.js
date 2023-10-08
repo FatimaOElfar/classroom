@@ -1,0 +1,11 @@
+export { default as Home } from './Home';
+export { default as Payment } from './Payment';
+export { default as Shop } from './Shop';
+export { default as SignUp } from './SignUp';
+export { default as Login } from './Login';
+export { default as Sidebar } from './Sidebar';
+export { default as Calender } from './Calender';
+export { default as Archive } from './Archive';
+export { default as Setting } from './Setting';
+export { default as Department } from './Department';
+export { default as Task } from './Task';

@@ -1,0 +1,22 @@
+:root {
+  --main-color: #a3aed0;
+  --second-color: #034488;
+}
+
+body {
+  font-family: 'Poppins', 'sans-serif', 'roboto';
+  font-family: roboto;
+  background-color: #f4f7fe !important;
+  width: 100vh;
+}
+
+.btn-main {
+  flex-shrink: 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  background: #034488;
+  box-shadow: 0px 20px 50px 0px rgba(55, 69, 87, 0.1);
+  color: #fff;
+  outline: none;
+  border: none;
+}
