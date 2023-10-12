@@ -65,13 +65,13 @@ const index = () => {
   const sidebarClosedWidth = '0';
 
   return (
-    <div style={{ display: 'flex' }}>
+    <div style={{ display: 'flex', marginRight: '10px' }}>
       <div
         className="sidebar"
         style={{
           background: '#fff',
-          height: 'inherit',
-          width: isOpen ? '250px' : '40px',
+
+          width: isOpen ? '250px' : '60px',
           textAlign: 'center',
           transition: 'all 0.5s',
           padding: '15px',
@@ -172,7 +172,7 @@ const index = () => {
       </div>
 
       <Container fluid="md " className="overflow-hidden">
-        <main className="content-pages mt-2 mb-2">
+        <main className="content-pages mt-2 mb-2 ">
           <Outlet />
         </main>
       </Container>

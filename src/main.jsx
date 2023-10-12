@@ -17,6 +17,8 @@ const routes = createBrowserRouter([
     element: <Sidebar />,
     children: [
       { index: true, element: <Home /> },
+      { path: 'home', element: <Home /> },
+
       { path: 'calender', element: <Calender /> },
       { path: 'archive', element: <Archive /> },
       { path: 'settings', element: <Setting /> },

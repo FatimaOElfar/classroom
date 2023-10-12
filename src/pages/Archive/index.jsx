@@ -1,7 +1,13 @@
 import React from 'react';
+import { Navbar } from '@/components';
 
 const index = () => {
-  return <div>archive</div>;
+  return (
+    <div>
+      <Navbar />
+      archive
+    </div>
+  );
 };
 
 export default index;

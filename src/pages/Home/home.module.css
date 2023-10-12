@@ -1,3 +1,6 @@
-.root{
-    color: chocolate;
+.root {
+  color: chocolate;
+}
+.root h1 {
+  color: red;
 }

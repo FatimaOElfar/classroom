@@ -1,7 +1,13 @@
 import React from 'react';
+import { Navbar } from '@/components';
 
 const index = () => {
-  return <div>setting</div>;
+  return (
+    <div>
+      <Navbar />
+      setting
+    </div>
+  );
 };
 
 export default index;
